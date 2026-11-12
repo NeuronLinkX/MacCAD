@@ -1,0 +1,16 @@
+// Command alias reference (Korean command sheet: 2017-1 CAD advanced) used by the Help dialog.
+export const HELP_SHORTCUTS = [
+  ['단위', 'UN', 'UNITS'], ['옵션', 'OP', 'OPTIONS'], ['특성', 'CH', 'PROPERTIES'], ['객체 스냅', 'OS', 'OSNAP'], ['선 색상', 'COL', 'COLOR'], ['선 모양', 'LT', 'LINETYPE'], ['되돌리기', 'U', 'UNDO'], ['창 닫기', 'CL', 'CLOSE'],
+  ['직선', 'L', 'LINE'], ['연속선(폴리선)', 'PL', 'PLINE'], ['지우기', 'E', 'ERASE'], ['길이 재기', 'DI', 'DIST'],
+  ['원', 'C', 'CIRCLE'], ['타원', 'EL', 'ELLIPSE'], ['사각형', 'REC', 'RECTANG'], ['다각형', 'POL', 'POLYGON'], ['도넛', 'DO', 'DONUT'], ['호', 'A', 'ARC'], ['객체 위치 조정', 'DR', 'DRAWORDER'],
+  ['간격 띄우기', 'O', 'OFFSET'], ['자르기', 'TR', 'TRIM'], ['모깎기', 'F', 'FILLET'], ['모따기', 'CHA', 'CHAMFER'], ['절단(객체 끊기)', 'BR', 'BREAK'], ['복사', 'CO', 'COPY'], ['대칭 복사', 'MI', 'MIRROR'], ['이동', 'M', 'MOVE'],
+  ['점', 'PO', 'POINT'], ['점 모양(형태)', 'DDPTYPE', 'DDPTYPE'], ['무늬', 'H', 'HATCH'], ['자유 곡선', 'SPL', 'SPLINE'], ['단행 문자', 'DT', 'DTEXT'], ['다중행 문자', 'MT', 'MTEXT'], ['문자 스타일', 'ST', 'STYLE'],
+  ['치수 스타일', 'D', 'DIMSTYLE'], ['선형 치수', 'DLI', 'DIMLINEAR'], ['연속 치수', 'DCO', 'DIMCONTINUE'], ['반지름 치수', 'DRA', 'DIMRADIUS'], ['연속선(폴리선) 편집', 'PE', 'PEDIT'],
+  ['배열', 'AR', 'ARRAY'], ['정렬', 'AL', 'ALIGN'], ['블록', 'B', 'BLOCK'], ['블록 내보내기', 'W', 'WBLOCK'], ['신축(늘리기)', 'S', 'STRETCH'], ['확장, 연장', 'EX', 'EXTEND'], ['축척', 'SC', 'SCALE'], ['회전', 'RO', 'ROTATE'],
+  ['길이 조정', 'LEN', 'LENGTHEN'], ['특성 일치', 'MA', 'MATCHPROP'], ['등분', 'DIV', 'DIVIDE'], ['길이 분할', 'ME', 'MEASURE'], ['선 모양 축척', 'LTS', 'LTSCALE'], ['제거', 'PU', 'PURGE'], ['도면 재생성', 'RE', 'REGEN'], ['확대/축소', 'Z', 'ZOOM'],
+  ['도면 삽입', 'I', 'INSERT'], ['지시선 작성', 'MLD', 'MLEADER'], ['지시선 스타일', 'MLS', 'MLEADERSTYLE'], ['지시선 편집', 'MLE', 'MLEADEREDIT'], ['정렬 치수', 'DAL', 'DIMALIGNED'], ['각도 치수', 'DAN', 'DIMANGULAR'], ['신속 치수', 'QDIM', 'QDIM'], ['분해', 'X', 'EXPLODE'],
+  ['영역', 'AA', 'AREA'], ['표', 'TB', 'TABLE'], ['구름 기호', 'REVCLOUD', 'REVCLOUD'], ['도면층', 'LA', 'LAYER'], ['클립', 'XC', 'XCLIP'], ['신속 선택', 'QSELECT', 'QSELECT'], ['찾기', 'FIND', 'FIND'], ['객체 가리기', 'WIPEOUT', 'WIPEOUT'],
+  ['속성 정의', 'ATT', 'ATTDEF'], ['속성 편집', 'ATTE', 'ATTEDIT'], ['외부 참조', 'XREF', 'XREF'], ['파일 부착', 'ATTACH', 'ATTACH'], ['멀티 뷰포트', 'MV', 'MVIEW'], ['모형 공간', 'MS', 'MSPACE'], ['출력 공간', 'PS', 'PSPACE'], ['리습 불러오기', 'AP', 'APLOAD'],
+  ['새파일', 'Ctrl+N', 'NEW'], ['파일열기', 'Ctrl+O', 'OPEN'], ['저장하기', 'Ctrl+S', 'SAVE'], ['새로저장', 'Ctrl+Shift+S', 'SAVEAS'], ['인쇄하기', 'Ctrl+P', 'PLOT'], ['복사하기', 'Ctrl+C', 'COPYCLIP'], ['잘라내기', 'Ctrl+X', 'CUTCLIP'], ['붙여넣기', 'Ctrl+V', 'PASTECLIP'], ['되돌리기', 'Ctrl+Z', 'UNDO'], ['복구하기', 'Ctrl+Y', 'REDO'],
+  ['명령 복구', 'REDO', 'REDO'], ['3D 화면을 2D 선으로 보내기', 'FS', 'FLATSHOT'], ['격자 모양 바꾸기 (선/점)', 'Shift+F7', 'GRIDSTYLE'], ['격자 모양 바꾸기 (선/점)', 'GS', 'GRIDSTYLE'], ['도면 닫기', 'Ctrl+W', 'CLOSE'], ['전체 선택', 'Ctrl+A', 'SELECTALL'], ['특성 창', 'Ctrl+1', 'PROPERTIES'], ['다음 도면 탭', 'Ctrl+Shift+]', 'NEXT DRAWING'], ['이전 도면 탭', 'Ctrl+Shift+[', 'PREVIOUS DRAWING'], ['지우기', 'Del', 'ERASE'], ['실행 창', 'F2', 'TEXT WINDOW'], ['객체 스냅 ON/OFF', 'F3', 'OSNAP'], ['그리드 ON/OFF', 'F7', 'GRID'], ['직교 ON/OFF', 'F8', 'ORTHO'], ['스냅 ON/OFF', 'F9', 'SNAP'], ['극좌표 추적 ON/OFF', 'F10', 'POLAR'], ['객체 스냅 추적 ON/OFF', 'F11', 'OTRACK'], ['동적 입력 ON/OFF', 'F12', 'DYN'],
+];
